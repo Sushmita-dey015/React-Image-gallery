@@ -1,0 +1,148 @@
+.demo-app{
+    text-align: center;
+    font-size: medium;
+    background-color: antiquewhite;
+    margin: auto;
+    height: auto;
+    margin-top: -42px; 
+    box-sizing: border-box;
+     
+}
+
+.demo-app h5{
+    color:black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.demo-app  img{
+    max-width: 100%;
+    height: auto;
+    display:inline-flex;
+    vertical-align: middle;
+
+    
+}
+.demo-app .grap-container > div{
+    background-color: transparent;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.demo-app .grap-container > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 18px 3px rgba(66, 176, 130, 0.3);
+    transition: 600ms;
+    cursor: pointer;
+}
+.demo-app .grap-container{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    background-color: transparent;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
+    grid-auto-rows:200px;
+    grid-auto-flow: dense;     
+}
+.demo-app .grap-container .image1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.demo-app .grap-container .image1{
+   width: 247px;
+   height: 262px;
+   padding: 5px;
+}
+
+.demo-app .grap-container > div :hover{
+    filter: grayscale(1.03);
+    transform: scale(1.03);
+    z-index: 4;
+    cursor: pointer;
+} 
+
+.demo-app .grap-container .drap-area{
+    height:90%;
+    width: 90%;
+    border-radius:5px;
+    border: 2px dashed brown;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-left: 5px;
+ 
+}
+
+.demo-app .grap-container .drap-area:hover{
+    filter: grayscale(1.03);
+    transform: scale(1.03);
+    z-index: 4;
+}
+
+.demo-app .grap-container .drap-area label{
+    color: black;
+    cursor: pointer;
+    transition: 0.4;
+    margin-left: 0px;
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.demo-app .grap-container .drap-area .area .image button{
+    text-align: center;
+    background-color: brown;
+    font-family: fantasy;
+    color: aliceblue;
+    cursor:pointer;
+}
+
+.demo-app .grap-container .button{
+    margin: 0;
+    margin-left: -26px;
+    margin-top:-154px;
+}
+.demo-app .grap-container .image1 .button{
+    margin: 0;
+    margin-top:-220px;
+    margin-left: -25px;
+}
+
+.demo-app .outfit p{
+    text-align: right;
+    margin-right:50px;
+    font-size:20px;
+    font-family: fantasy;
+    color: blueviolet;
+}
+
+.demo-app .grap-container .drap-area .select:hover{
+    opacity: 0.9;
+}
+
+.demo-app .drap-area .grap-container .visible{
+    font-size: 18px;
+    
+}
+.demo-app .grap-container .drap-area input{
+    display: none;
+}
+
+
+
+
+
+
+
+
